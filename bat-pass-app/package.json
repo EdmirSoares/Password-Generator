@@ -10,10 +10,17 @@
   },
   "dependencies": {
     "expo": "~51.0.14",
+    "expo-av": "~14.0.5",
+    "expo-blur": "~13.0.2",
+    "expo-linear-gradient": "~13.0.2",
     "expo-status-bar": "~1.12.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-native": "0.74.2"
+    "expo-video": "^1.1.10",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.2",
+    "react-native-reanimated": "~3.10.1",
+    "react-native-toast-notifications": "^3.4.0",
+    "styled-components": "^6.1.11"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
