@@ -9,20 +9,20 @@ export default function App() {
 		<ToastProvider
 			successColor="#80BF66"
 			warningColor="#FADA61"
-			offsetTop={40}
-			offsetBottom={50}
+			placement="top"
+			offset={40}
 			swipeEnabled={true}
 			renderToast={(toast) => (
 				<View
 					style={{
 						backgroundColor: "#FFF",
 						elevation: 10,
-						width: "90%",
+						width: "85%",
 						minHeight: 50,
 						paddingRight: 10,
 						flexDirection: "row",
 						alignItems: "center",
-						borderRadius: 5,
+						borderRadius: 6,
 					}}
 				>
 					<View

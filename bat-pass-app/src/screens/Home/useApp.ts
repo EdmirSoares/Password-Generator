@@ -38,14 +38,14 @@ function copyToClipboard() {
 
         toast.show("Password copied to clipboard", {
             type: "success",
-            placement: "bottom",
+            placement: "top",
             duration: 2000,
             animationType: "zoom-in",
         });
     } catch {
         toast.show("Failed", {
             type: "warning",
-            placement: "bottom",
+            placement: "top",
             duration: 2000,
             animationType: "zoom-in",
         });
